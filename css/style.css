@@ -78,8 +78,29 @@ header{
 }
 /* Section */
 section {
-    background-color: cornsilk;
-    height: 300px;
+    background-image: url(../img/banner.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    position: relative;
+}
+
+.container-text {
+    height: 150px;
+    width: 550px;
+    background-color: cadetblue;
+
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+#lorem,
+#pretium {
+    color: white;
+}
+
+#lorem {
+    font-size: 12px;
 }
 
 /* Main Content*/
@@ -104,9 +125,37 @@ aside {
     float: left;
 }
 
+.immagine_sx {
+    height: 200px;
+    background-image: url(../img/img-1.jpg);
+    background-size: 100% 100%;
+}
+
+.immagine_dx {
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-size: 100% 100%;
+}
+
+.descrizione {
+    height: 280px;
+    background-color: forestgreen;
+    padding-top: 25px;
+}
+
+.immagine_cx {
+    height: 200px;
+    background-color: goldenrod;
+    background-image: url(../img/banner-2.jpg);
+    background-size: 100% 100%;
+    
+}
 /* footer */
 footer {
     height: 80px;
     background-color: bisque;
     margin-bottom: 30px;
+
+    text-align: center;
+    line-height: 80px;
 }
