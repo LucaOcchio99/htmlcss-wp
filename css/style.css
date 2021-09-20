@@ -10,6 +10,11 @@ body {
     color: #989898;
 }
 
+h1, 
+h2,
+h3 {
+    color: black;
+}
 /* utility */
 .container {
     width: 80%;
@@ -39,16 +44,10 @@ body {
     display: table;
     clear: both;
 }
-/* Debug content*/
-.debug-box {
-    height: 50px;
-    background-color: rgba(0,0,0, .25);
-    border: 1px solid black;
-}
+
 
 /* Header */
 header{
-    background-color: brown;
     height: 100px;
 }
 
@@ -86,8 +85,7 @@ section {
 
 .container-text {
     height: 150px;
-    width: 550px;
-    background-color: cadetblue;
+    width: 700px;
 
     position: absolute;
     bottom: 30px;
@@ -99,28 +97,26 @@ section {
     color: white;
 }
 
+#pretium {
+    font-size: 25px;
+}
+
 #lorem {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* Main Content*/
-main {
-    background-color: darkgray;
-}
 
 .sezione_intestazione {
-    background-color: darkslateblue;
     height: 100px;
 }
 
 aside {
-    background-color: salmon;
     width: 20%;
     float: left;
 }
 
 .sezione_centrale {
-    background-color: seagreen;
     width: 60%;
     float: left;
 }
@@ -139,7 +135,6 @@ aside {
 
 .descrizione {
     height: 280px;
-    background-color: forestgreen;
     padding-top: 25px;
 }
 
@@ -153,9 +148,10 @@ aside {
 /* footer */
 footer {
     height: 80px;
-    background-color: bisque;
     margin-bottom: 30px;
 
     text-align: center;
     line-height: 80px;
+
+    color: black;
 }
